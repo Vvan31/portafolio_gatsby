@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    top: auto;
+    margin: 0;
+    padding: 0;
+
+    .about {
+        /* background-image: url(../images/van2.png);
+        background-repeat: no-repeat;
+        background-size: cover; */
+       /*  color: $black; */
+       height: 100vh;
+       background: #EEEBD3;
+       color:#255957;
+
+    }
+    .projects {
+        /* background-image: url(../images/van3.png);
+        background-position: -10;
+        background-repeat: no-repeat;
+        background-size: cover; */
+       /*  color: $black; */
+       height: 100vh;
+        background: #C44536;
+        color: #EEEBD3;
+    }
+    .blogs{
+        background: #EEEBD3;
+        color:#255957;
+       height: 100vh;
+
+    }
+    .contact {
+        color:#EEEBD3;
+        background: #255957;
+       height: 100vh;
+    }
+}

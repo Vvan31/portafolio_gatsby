@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Petrona:wght@300;400&family=Work+Sans:wght@600;800&display=swap');
+
+/* :root{
+    --font-family-petrona: 'Petrona', serif;
+    --font-family-work: 'Work Sans', sans-serif;
+} */
+
+$font:'Petrona', serif, 'Work Sans', sans-serif;
+
+$white: #EEEBD3;
+$green: #255957;
+$red: #C44536;
+$black: #2d2e2d;
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+    // background: linear-gradient(0deg, rgba(152, 102, 56, 0.16), rgba(130, 97, 66, 0.63)), url(../images/van.jpeg) ;
+    background-position: -10;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $black;
+}
