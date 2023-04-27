@@ -13,8 +13,6 @@ import  Contact from "./Contact";
 import  Projects from "./Projects";
 import NotFoundPage from "./404";
 
-
-
 const App: React.FC<PageProps> = () => {
   return (
       <BrowserRouter>

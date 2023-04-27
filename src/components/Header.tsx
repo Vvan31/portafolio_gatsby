@@ -1,7 +1,6 @@
 import React from "react";
 import type { HeadFC, PageProps } from "gatsby"
 import { Link } from "react-router-dom";
-
 //styles
 import "../styles/header.scss"
 
@@ -10,10 +9,18 @@ const Header = () => {
         <div className="container">
             <div className="inner_header">
                 <div className="logo">
-                    <h4>Vivian's Portfolio</h4>
-                    <Link to="/">Home</Link>
+                    <Link to="/">Vivian's Portfolio</Link>
                 </div>
-                <div> 
+                <div className="navigation">
+                    <nav>
+                        <Link to="/about">About</Link>
+                        <Link to="/projects">Projects</Link>
+                        <Link to="/blogs">Blogs</Link>
+                        <Link to="/contact">Contact</Link>
+                    </nav>
+                </div>
+                <div className="hamburger">
+                    <span className="bar">.</span>
                     <nav>
                         <Link to="/about">About</Link>
                         <Link to="/projects">Projects</Link>
@@ -26,4 +33,4 @@ const Header = () => {
     );
 };
 export default Header;
-export const Head: HeadFC = () => <title>Home Page</title>
+export const Head: HeadFC = () => <title>Home sPage</title>

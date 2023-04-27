@@ -8,7 +8,6 @@ import "../styles/about.scss"
 const About = () => {
     return (
         <>
-        <h1>About</h1>
         <h1 className="title">VIVIANA OSORIO</h1>
         <h2 className="subtitle">SOFTWARE ENGINEER</h2>
         <p className="text">Lorem ipsum, dolor sit amet consectetur 

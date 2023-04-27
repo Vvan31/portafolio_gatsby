@@ -3,5 +3,31 @@ body{
     top: auto;
     margin: 0;
     padding: 0;
-     background-image: linear-gradient(0deg, rgba(152, 102, 56, 0.16), rgba(130, 97, 66, 0.63)), url(../images/van2.png);
+    background-image: linear-gradient(0deg, rgba(152, 102, 56, 0.16), rgba(130, 97, 66, 0.63)), url(../images/van2.png);
+    
+     .title{
+        font-family: var(--font-family-work);
+        font-size: 6rem;
+        font-weight: 900;
+        color: var(--color-green);
+        text-align: left;
+        margin: 5rem;
+     }
+     .subtitle{
+        font-family: var(--font-family-work);
+        font-size: 3rem;
+        font-weight: 400;
+        color: var(--color-red);
+        text-align: left;
+        margin: 5rem;
+     }
+     .text{
+        font-family: var(--font-family-petrona);
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: var(--color-black);
+        text-align: left;
+        margin: 5rem;
+     }
 }
+
