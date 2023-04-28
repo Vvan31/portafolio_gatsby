@@ -34,29 +34,23 @@ const About = () => {
                 <h2 className="subtitle">SOFTWARE ENGINEER</h2>
                 <div className="boxes">
                     <div className="text-box">
-                        <p className="text">Lorem ipsum, dolor sit amet consectetur 
-                        adipisicing elit. Ut in obcaecati aperiam repellat 
-                        inventore doloremque pariatur illo, unde autem at. 
-                        Sint nam consequatur hic debitis fugiat id corporis 
-                        nisi consequuntur!</p>
-                        <p className="text">Lorem ipsum, dolor sit amet consectetur</p>
+                        <p className="text">Front-end web developer with a background in Software engineering, 
+                        experience in process mining with python, front-end development with react, and a 
+                        passion for learning new technology .</p>
+                        <div className="skills">
+                        <h3 className="skills-title">Skills</h3>
+                        <ul className="skills-list">
+                            <li className="skills-item">LANGUAGES: JavaScript, Python, Ruby, HTML, CSS, Swift, Bash, Java, Kotlin, C</li>
+                            <li className="skills-item">FRAMEWORKS, LIBRARIES, AND ENVIRONMENTS: NodeJS, ReactJS, React Router, AWS, Bootstrap, Pandas, Numpy, JQuery. </li>
+                            <li className="skills-item">SYSTEMS, CMS'S, AND DATABASES: SQL, MongoDB, Git, Firebase</li>
+                            <li className="skills-item">MongoDB / Supabase / Firebase</li>
+                    </ul>
+                </div>
                     </div>
                     <div className="image-box">
                         <StaticImage src='../images/graduation.jpeg' alt="Viviana Osorio" className={img1}/>
                         <StaticImage src='../images/deepcove.jpeg' alt="Viviana Osorio" className={img2}/>
                     </div>
-                </div>
-                <div className="skills">
-                    <h3 className="skills-title">Skills</h3>
-                    <ul className="skills-list">
-                        <li className="skills-item">HTML / CSS</li>
-                        <li className="skills-item">JavaScript / Typescript</li>
-                        <li className="skills-item">React / Node</li>
-                        <li className="skills-item">MongoDB / Supabase / Firebase</li>
-                        <li className="skills-item">SQL / NoSQL</li>
-                        <li className="skills-item">Python</li>
-                        <li className="skills-item">Git / Github</li>
-                    </ul>
                 </div>
             </div>
         </div>
