@@ -30,9 +30,15 @@ const config: GatsbyConfig = {
         __key: "images"
       },
       "gatsby-plugin-sass",
-      "gatsby-plugin-typescript"
-
-]
+      "gatsby-plugin-typescript",
+      {
+        resolve: 'gatsby-plugin-minify-classnames',
+        options: {
+          /* gatsby-plugin-minify-classnames options here */
+        }
+      }
+  ]
 };
+
 
 export default config;
