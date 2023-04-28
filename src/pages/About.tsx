@@ -44,13 +44,16 @@ const About = () => {
                             <li className="skills-item">FRAMEWORKS, LIBRARIES, AND ENVIRONMENTS: NodeJS, ReactJS, React Router, AWS, Bootstrap, Pandas, Numpy, JQuery. </li>
                             <li className="skills-item">SYSTEMS, CMS'S, AND DATABASES: SQL, MongoDB, Git, Firebase</li>
                             <li className="skills-item">MongoDB / Supabase / Firebase</li>
-                    </ul>
-                </div>
+                        </ul>
+                    </div>
                     </div>
                     <div className="image-box">
                         <StaticImage src='../images/graduation.jpeg' alt="Viviana Osorio" className={img1}/>
                         <StaticImage src='../images/deepcove.jpeg' alt="Viviana Osorio" className={img2}/>
                     </div>
+                </div>
+                <div className="contact">
+                    <h3 className="contact-title">Contact</h3>
                 </div>
             </div>
         </div>
