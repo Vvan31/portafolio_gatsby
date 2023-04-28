@@ -48,7 +48,6 @@
                         &:hover {
                             color: var(--color-red);
                         }
-
                     }
                 }
             }
@@ -70,6 +69,7 @@
             align-items: center;
             justify-content: space-between;
             height: 80px;
+            padding: 0 0 0 2.75rem;
             margin-left: 1.75rem;
             margin-right: 1.75rem;
             .logo {
@@ -122,7 +122,6 @@
         position: fixed;
         top: 0;
         left: 0;
-
         z-index: 1000;
         .inner_header {
             display: flex;
