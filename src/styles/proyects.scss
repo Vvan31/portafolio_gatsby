@@ -1,0 +1,41 @@
+
+        .content{
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            margin-left: 5rem;
+            margin-top: 3rem; 
+
+            .parallax {
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                height: 70vh;
+                width: 100%;
+                top: 0;
+                left: 0;
+              }
+              .houseplants {
+                background-image: url('../images/HousePlants/hp.gif');
+
+
+              }
+              .NotesApp{
+                background-image: url('../images/HousePlants/hp.gif');
+              }
+              .gurutrivia{
+                background-image: url('../images/GuruTrivia/triviaGuru.png');
+              }
+
+              .element{
+                height:40vh;
+                background-color:var(--color-red);
+                font-size:36px;
+              }
+              .blank{
+                height:100px;
+                background-color:transparent;
+                font-size:36px;
+              }
+        }
